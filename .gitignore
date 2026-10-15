@@ -1,0 +1,8 @@
+# Fichiers générés
+__pycache__/
+.pytest_cache/
+public/
+
+# Environnements et secrets : ne jamais les committer
+.env
+.venv/

@@ -1,0 +1,45 @@
+{
+  "message_accueil": "Bienvenue sur la page de statut des services numériques du Réseau Lumen.",
+  "periode": {
+    "libelle": "Juin 2027",
+    "minutes_totales": 43200
+  },
+  "services": [
+    {
+      "id": "lumenapp",
+      "nom": "LumenApp (abonnés)",
+      "objectif": 99.5,
+      "incidents": [42, 18, 25]
+    },
+    {
+      "id": "portail-agents",
+      "nom": "Portail agents",
+      "objectif": 99.0,
+      "incidents": [120, 95, 60]
+    },
+    {
+      "id": "sigb",
+      "nom": "SIGB Scriptoria (prêts, catalogue)",
+      "objectif": 99.8,
+      "incidents": [95, 60]
+    },
+    {
+      "id": "postes-publics",
+      "nom": "Postes publics",
+      "objectif": 98.0,
+      "incidents": [300, 240, 410, 180]
+    },
+    {
+      "id": "messagerie",
+      "nom": "Messagerie des agents",
+      "objectif": 99.5,
+      "incidents": [30]
+    },
+    {
+      "id": "impression",
+      "nom": "Impression et copieurs",
+      "objectif": 97.0,
+      "incidents": [240, 180, 300]
+    }
+  ]
+}
