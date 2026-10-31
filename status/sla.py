@@ -33,7 +33,10 @@ def mtbf(minutes_totales, minutes_indispo, nb_pannes):
     (minutes_totales - minutes_indispo).
     Exemple : mtbf(43200, 85, 3) -> 14371.7
     """
-    raise NotImplementedError("LUM-31 : à implémenter")
+    temps_fonctionnement = minutes_totales - minutes_indispo
+    if nb_pannes == 0:
+        return temps_fonctionnement
+    return round(temps_fonctionnement / nb_pannes, 1)
 
 
 def statut_service(dispo, objectif):
