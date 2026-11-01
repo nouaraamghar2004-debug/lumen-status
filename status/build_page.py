@@ -18,8 +18,8 @@ sys.path.insert(0, str(RACINE))
 from status.sla import disponibilite, mttr, statut_service  # noqa: E402
 
 # --- Textes de la page (ticket LUM-33 : à améliorer) -----------------------
-TITRE_PAGE = "Statut des services"
-PIED_DE_PAGE = "Page générée automatiquement."
+TITRE_PAGE = "État des services numériques — Réseau Lumen"
+PIED_DE_PAGE = "Un problème ? Signalez-le sur le portail du support (SUP). Page mise à jour automatiquement à chaque déploiement."
 
 FICHIER_SERVICES = RACINE / "data" / "services.json"
 FICHIER_FLAGS = RACINE / "config" / "flags.json"
