@@ -34,3 +34,18 @@ def test_statut_ok_quand_objectif_atteint():
 def test_mtbf():
     assert mtbf(43200, 85, 3) == 14371.7
     assert mtbf(43200, 0, 0) == 43200
+
+def test_statut_objectif_exact():
+    assert statut_service(99.5, 99.5) == "OK"
+
+
+def test_statut_degrade():
+    assert statut_service(99.641, 99.8) == "DÉGRADÉ"
+
+
+def test_statut_limite_degrade():
+    assert statut_service(99.3, 99.8) == "DÉGRADÉ"
+
+
+def test_statut_ko():
+    assert statut_service(99.29, 99.8) == "KO"
