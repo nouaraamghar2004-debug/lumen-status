@@ -1,5 +1,5 @@
 {
-  "afficher_mttr": false,
+  "afficher_mttr": true,
   "bandeau_maintenance": false,
   "message_maintenance": ""
 }
