@@ -21,7 +21,7 @@
       "id": "sigb",
       "nom": "SIGB Scriptoria (prêts, catalogue)",
       "objectif": 99.8,
-      "incidents": [95, 60]
+      "incidents": [95, 60, -620]
     },
     {
       "id": "postes-publics",
