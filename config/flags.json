@@ -1,5 +1,5 @@
 {
   "afficher_mttr": true,
-  "bandeau_maintenance": false,
-  "message_maintenance": ""
+  "bandeau_maintenance": true,
+  "message_maintenance": "Mise à jour du SIGB Scriptoria le mardi 7 juillet de 8 h à 9 h 30 : réservations indisponibles."
 }
